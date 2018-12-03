@@ -48,6 +48,8 @@ do
  decrypted=$( openssl enc -d -aes-256-cbc -a -in $1 -pass pass:$password 2>/dev/null )
  if echo $decrypted | grep -q "password" ; then
   echo "${YELL}[+] Found!: $password${NC}"
+  openssl enc -d -aes-256-cbc -a -in $1 -pass pass:$password -out output.txt 2>/dev/null
+  echo "${YELL}[+] Output file: output.txt${NC}"
   ENDTIME=$(date +%s)
   echo "${PURPLE}Time elapsed: $((ENDTIME-STARTTIME))s ${NC}"
 break;
