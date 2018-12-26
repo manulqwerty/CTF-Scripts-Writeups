@@ -1,2 +1,2 @@
-# HTB-Stuff
-Stuff used to resolve HTB machines
+# CTF-Stuff
+Stuff used to resolve CTF (htb, vulnhub, ...)
