@@ -9,23 +9,22 @@ We attach the encode php code , try to reverse it and decode the flag
 <?php
     function encode($input){ 
         $inputlen = strlen($input);
-		$randkey = 5;
+		$randkey = rand(1, 9); 
 		$i = 0;
 		while ($i < $inputlen) {
 			$inputchr[$i] = (ord($input[$i]) - $randkey);
 			$i++; 
 		}
-		print_r ($inputchr);
-		
 		$encrypted = implode('.', $inputchr) . '.' . (ord($randkey)+49);
 		return $encrypted;
     }
-	echo(encode("radar{}"));
+    echo(encode("radar{}"));
 ?>
 ```
 **flag.txt**
 `109.92.95.92.109.118.109.92.105.95.90.100.110.90.105.106.111.90.98.106.106.95.90.100.95.96.92.90.103.106.103.120.102`
 
+We know that the first character is 'r' so executing the php several times we get that the randkey is 5.
 To decrypt the flag we can use a python script:
 ```python
 #!/usr/bin/env python
