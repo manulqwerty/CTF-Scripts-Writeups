@@ -52,3 +52,4 @@ flag = '109.92.95.92.109.118.109.92.105.95.90.100.110.90.105.106.111.90.98.106.1
 print decode(dicc, flag)
 
 ```
+![alt text](https://github.com/manulqwerty/CTF-Stuff/blob/master/RADARCTF/Random/1.png)
