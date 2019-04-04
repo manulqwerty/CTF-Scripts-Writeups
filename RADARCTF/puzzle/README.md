@@ -7,10 +7,10 @@ If you can't solve it study some math and come back again
 Challenge's URL : 
 http://blackfoxs.org/radar/puzzle
 ```
-IMG 1
+![alt text](https://github.com/manulqwerty/CTF-Stuff/blob/master/RADARCTF/puzzle/1.png)
 
 Checking the source, we find **<!-- don't forget to remove /puzzle_code_file.zip -->**
-IMG 2
+![alt text](https://github.com/manulqwerty/CTF-Stuff/blob/master/RADARCTF/puzzle/2.png)
 
 On the puzzle_code_file.zip we get the index.php source code, the importan part:
 ```php
@@ -39,4 +39,4 @@ if m:
     print found
 
 ```
-IMG 3
+![alt text](https://github.com/manulqwerty/CTF-Stuff/blob/master/RADARCTF/puzzle/3.png)
