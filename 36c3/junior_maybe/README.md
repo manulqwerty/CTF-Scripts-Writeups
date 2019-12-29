@@ -23,10 +23,10 @@ while (i < 0x24) {
 flag = true;
 j = 0;
 while (j < 0x24) {
-if (junior[j] != (&xor_const)[j * 2 + 1]) {
-    flag = false;
-}
-j = j + 1;
+    if (junior[j] != &xor_const[j * 2 + 1]) {
+        flag = false;
+    }
+    j = j + 1;
 }
 sleep(10);
 puts("aber es ist nur noch eine sache von sekunden!");
