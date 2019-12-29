@@ -9,7 +9,7 @@ $ ./chal1-a27148a64d65f6d6fd062a09468c4003 Argv_1
 ````
 So let's review the other functions and find out how the program works.
 
-## Pseude-C
+## Pseudo-C
 ```c
 i = 0;
 while (i < 0x24) {
