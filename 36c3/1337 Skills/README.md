@@ -8,6 +8,7 @@ This is an Android reversing challenge. We can download the [apk here.](https://
 The app request an activation code to start using it. Let's dissasembly the apk in other to get those codes.
 
 ## JADX
+
 Let's open the apk with [jadx.](https://github.com/skylot/jadx)
 In the **MainActivity** we see this function:
 ```java
