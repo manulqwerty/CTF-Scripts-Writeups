@@ -1,0 +1,1 @@
+#!/');ATTACH DATABASE './d.php' AS db;CREATE TABLE db.m(f BLOB);--
